@@ -25,7 +25,7 @@ pipeline {
 
       }
       
-      stage(' Code Build') {
+      stage(' Code Building') {
          steps {
            
             // To run Maven on a Windows agent, use
